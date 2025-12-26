@@ -3,6 +3,14 @@ name = "calldatafmt"
 version = "0.1.0"
 edition = "2024"
 
+description = "Format EVM calldata as displayed on supported hardware wallets (Ledger Flex, Trezor Safe 7)."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/lucasfhope/calldatafmt"
+readme = "README.md"
+keywords = ["ethereum", "evm", "calldata", "ledger", "trezor"]
+categories = ["command-line-utilities"]
+authors = ["Lucas Hope"]
+
 [dependencies]
 anyhow = "1"
 clap = { version = "4", features = ["derive"] }
